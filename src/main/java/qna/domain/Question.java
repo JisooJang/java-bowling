@@ -93,7 +93,7 @@ public class Question extends AbstractEntity {
         }
     }
 
-    private User getWriter() {
+    public User getWriter() {
         return writer;
     }
 
