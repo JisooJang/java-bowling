@@ -19,7 +19,7 @@ public class Answers {
     private final List<Answer> answers;
 
     public Answers() {
-        this.answers = new ArrayList<>();
+        this(new ArrayList<>());
     }
 
     public Answers(List<Answer> answers) {
